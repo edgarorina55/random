@@ -16,3 +16,21 @@ MySQL
     .data security - offers robust security features to protect data 
     .scalability - can handle small to large applications with ease 
 
+MySQL Query
+.act as instructions 
+    .receive specific data
+    .fiter results
+    .perform calculations 
+
+.select 
+.retrieves info and stores it in a table (result set)
+.allows column specification for data retrieval, and can apply filters to only get the data that meets specific conditions
+.uses various clauses: 
+    .select - specifies the columns or expressions to retrieve from the DB table 
+    .from - indicates the table from which to fetch the data
+    .where - optional clause allowing me to specify conditions to filter the rows retrieved from the table
+        .only rows that satisfy the condition will be included in the result set 
+    .order by - optional clause used to sort the result set in ascending or descending order based on one or more columns
+    .limit - optional clause that restricts the number of rows returned by the query
+        .useful when only wanting to retrieve a certain number of rows from the result set 
+
