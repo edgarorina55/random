@@ -1,0 +1,18 @@
+Introduction
+
+DB 
+.digital system for data arrangement and storage 
+.facilitates efficient management of data
+    .enables addition, modification, removal, and access of info
+
+MySQL 
+.open-source RDBMS that uses SQL to manage data 
+.reliable, fast, and easy to use 
+.allows creation, modification, and maintenance of databases 
+.provides multiple features:
+    .data storage - efficiently store large amounts of data 
+    .data retrieval - allows quick and easy access to data 
+    .data manipulation - supports ops like inserting, updating, etc 
+    .data security - offers robust security features to protect data 
+    .scalability - can handle small to large applications with ease 
+
