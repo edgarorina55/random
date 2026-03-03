@@ -1,17 +1,11 @@
 MySQL Clauses 
 
+.are the building blocks of powerful database queries 
+    .act like instructions within a statement, specifying actions like filtering data, sorting results, and grouping info
 
-
-
-
-
-
-
-
-
-
-
-.Distinct 
-    .for retrieving only unique rows from query results 
-    .used in a SELECT statement to remove duplicate rows from the result set 
-        .ensures only unique records are returned, eliminating any redundant data 
+WHERE:
+    .essential for filtering data based on specific conditions and returning it in the result set 
+        .specifies a condition while fetching data from a single table or by joining multiple tables; only records that meet 
+        the specified condition are retrieved 
+    .commonly used in SELECT, INSERT, UPDATE, and DELETE statements to work on specific data 
+    .follows the FROM clause in a SELECT statement, and precedes any ORDER BY or GROUP BY clauses 
