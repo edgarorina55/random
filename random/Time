@@ -11,4 +11,28 @@ Phase 1 - through 6 weeks
     .basic command-line ops, bash scripting, and version control 
 .Data modelling 
     .normalization, indexing, and Star vs Snowflake schemas 
-    
+
+
+Phase 3 - by week 12
+.ETL processes 
+    .extract, transform, and load data
+    .use Python to move data from APIs/sources to storage 
+.data warehousing
+    .experience cloud-based data warehouses like Snowflake, BigQuery, or Redshift
+.orchestration
+    .schedule pipelines using Apache Airflow, Mage, or Prefect 
+
+
+Phase 3  - by week 16
+.cloud platforms 
+    .either AWS/ Azure/ GCP 
+    .learn their storage (S3/ Blob) and compute (Lambda/ Glue/ Databricks) services 
+.big data tools 
+    .distributed computing with Apache Spark
+
+
+Phase 4  -  week 17+ 
+.end-to-end project
+    .build a project that scrapes data from an API, processes it with Spark/Python, loads it into a cloud warehouse, and schedules it with Airflow  
+.dataOps 
+    .implement basic data quality checks and containerize applications with Docker 
