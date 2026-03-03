@@ -9,3 +9,26 @@ WHERE:
         the specified condition are retrieved 
     .commonly used in SELECT, INSERT, UPDATE, and DELETE statements to work on specific data 
     .follows the FROM clause in a SELECT statement, and precedes any ORDER BY or GROUP BY clauses 
+
+HAVING:
+    .used in conjunction with the GROUP BY clause to filter the results of a query based on the aggregate functions 
+    .provides a way to apply conditions to the grouped results, which cannot be achieved using the WHERE clause alone 
+    .essential when I need to filter groups of data that are returned by a GROUP BY query
+    .unlike the WHERE clause which filters rows before grouping, the HAVING clause filters groups after the aggregation has been performed 
+
+ORDER BY:
+    .sorts the result set either in ascending or descending order 
+    .essential in querying DBs when I want to retrieve data in a specific order 
+
+GROUP BY:
+    .groups rows with the same values into summary rows enabling efficient data analysis 
+    .often used with aggregate functions like SUM, COUNT, AVG, MIN, and MAX to perform calculations on grouped data 
+
+LIMIT:
+    .essential for controlling the number of rows returned in a query
+    .helps manage large datasets, optimize performance, and focus on relevant data by specifying a limit on the number of results 
+
+PARTITION BY:
+    .used to partition rows of table into groups
+    .useful when I have to perform a calculation on individual rows of a group using other rows of that group 
+    
