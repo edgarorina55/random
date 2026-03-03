@@ -1,0 +1,17 @@
+MySQL Clauses 
+
+
+
+
+
+
+
+
+
+
+
+
+.Distinct 
+    .for retrieving only unique rows from query results 
+    .used in a SELECT statement to remove duplicate rows from the result set 
+        .ensures only unique records are returned, eliminating any redundant data 
