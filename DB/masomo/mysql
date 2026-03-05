@@ -1,0 +1,11 @@
+MySQL Notes 
+
+.RDBMS 
+    .program that maintains a relational database 
+    .uses SQL queries to access data in the database 
+    >> it defines database relationships in form of tables 
+        .tables related to each other based on data common to each other 
+
+DB table - collection of related data entries consisting of columns and rows 
+    .columns - holds specific info about every record in the table 
+    .row/record - each individual entry that exists in a table 
