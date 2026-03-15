@@ -1,0 +1,51 @@
+Using Pycharm with Powershell
+
+
+1. Launching Pycharm from Powershell
+    .if on path, launch it with 
+            pycharm .
+    .if not, use full path 
+        & "C:\Program Files\JetBrains\PyCharm 2025.3.1.1\bin\pycharm64.exe"
+      or to a specific project 
+        & "C:\Program Files\JetBrains\PyCharm 2025.3.1.1\bin\pycharm64.exe" "C:Users\edgar\python\powershell"   
+
+
+
+2. Using Powershell inside Pycharm (recommended)
+.python has a built-in terminal and I can switch it to Powershell
+    .open Pycharm
+    .go to file > settings > tools > terminal 
+    .set shell path to:
+        C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+    .click OK 
+    .press alt + f12 to open the terminal - not its Powershell 
+
+> it matters because I can run Python scripts with: 
+    python script.py 
+
+> I can install packages with:
+    python -m pip install <package> 
+>> I stay inside the IDE while using my preferred shell 
+
+
+
+3. allowing Powershell to run python scripts 
+.if Powershell blocks scripts inside pycharm, fix the execution policy:
+    run Powershell as admin and execute:
+        Set-ExecutionPolicy RemoteSigned
+            press A to accept 
+
+    .this allows:
+        .python virtual environments to activate 
+        .pycharm's terminal to run scripts normally 
+
+
+
+4. running python scripts from powershell 
+.if I want to run my pycharm project scripts directly from powershell:
+        cd C:\path\to\project
+        python main.py
+
+.if using a virtual environment:
+        .\venv\Scripts\Activate.ps1
+        python main.py
